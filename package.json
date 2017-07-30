@@ -1,0 +1,29 @@
+{
+  "name": "newangularproject",
+  "version": "1.0.0",
+  "description": "My ready to go repo for starting a new project with all the files built out and the basic routing and back end connections set up.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbrycebarker/newangularproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbrycebarker/newangularproject/issues"
+  },
+  "homepage": "https://github.com/sbrycebarker/newangularproject#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "express-session": "^1.15.4",
+    "passport": "^0.3.2",
+    "passport-auth0": "^0.6.0",
+    "querystring": "^0.2.0"
+  }
+}
